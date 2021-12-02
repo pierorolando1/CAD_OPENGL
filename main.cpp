@@ -11,11 +11,6 @@
 #include <GL/freeglut.h>
 #define BACKSPACE_KEY 8
 #endif
-/*
-    SFWRENG 3GC3 Assignment 4
-    Areez Visram | 400239951 | visraa7
-    Neil Lobo | 400242014 | lobon4
-*/
 
 // Header files
 #include <iostream>
@@ -1090,7 +1085,7 @@ void initGlut()
 
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
     glutInitWindowSize(GLOBAL_WIDTH, GLOBAL_HEIGHT);    
-    mainWindowId = glutCreateWindow("Assignment 4 - Areez Visram & Neil Lobo");
+    mainWindowId = glutCreateWindow("3D CAD System");
     glutReshapeFunc(reshape);
     glutDisplayFunc(display);
     glutKeyboardFunc(keyboard);
