@@ -1,11 +1,6 @@
-## **SFWRENG 3GC3 - Assignment 4**
-#### Areez Visram - visraa7 - 400239951
-#### Neil Lobo - lobon4 - 400242014
+## 3D CAD System
 
-![image]()
-
-### **Platform Specifications**
-* OS: Developed on both Mac OS Big Sur Version 11.6, Apple Silicon M1 Chip and Windows 10 10.0.19042 Build 19042
+![image](https://i.imgur.com/lK8crX3.png)
 
 ### **Program Execution**
 Using the makefile, the program can be executed via:
@@ -13,9 +8,6 @@ Using the makefile, the program can be executed via:
 
 To remove the executable run:
 * `clean`: Run `make clean`
-
-Please note that a lot of external classes were created in the `classes` folder. Please compile this program using the
-makefile provided as part of the submission as it has been changed to compile correctly with our file structure.
 
 ### **Main Program**
 **External Libraries Used**:
@@ -84,7 +76,13 @@ A list of the key bindings and the action they pertain to:
 * DOWN_ARROW - Rotate entire scene positive 5 units on the Z axis
 * RIGHT_ARROW - Rotate entire scene negative 5 units on the Y axis
 * LEFT_ARROW - Rotate entire scene positive 5 units on the Y axis
-#### **Additional/Bonus Features:**
+#### **Features:**
+**CAD System**
+* This program implements a fully functioning CAD system
+* Shapes can be added and deleted, rotated, scaled and translated
+* 5 materials available for the objects
+* Scene can be saved and loaded
+
 **Additional Custom Shape**
 * Additional Custom Shape feature (number 13 in list)
 * Clicking '/' adds a snowman shape to the scene
@@ -103,10 +101,6 @@ a GUI has been implemented
 * Backspace also works to delete characters
 * Do not need to append ".txt" when loading and saving files, just type the name of the file (e.g if file is hello.txt, type hello)
 * Click Enter key when done typing text
-* **NOTE:** There seems to be some sort of issue with writing to custom named files on Windows. This feature works entirely correctly
-on Areez's machine, MacOS, but not on Neil's, Windows
-* So if this feature does not work on your machine, we would like to ask if it could be run on a Mac machine, or if we could personally demo this feature
-working correctly because it does work, we just couldn't figure out why it won't work on Windows
 
 #### **Design Decisions**
 * Loading clears the current scene and loads the other scene
