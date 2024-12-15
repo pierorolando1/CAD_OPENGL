@@ -767,6 +767,7 @@ void errorKeyboard(unsigned char key, int x, int y)
 void keyboard(unsigned char key, int x, int y)
 {
     Object obj;
+    Object obj1;
     switch (key)
     {
     case 'q':
@@ -824,12 +825,12 @@ void keyboard(unsigned char key, int x, int y)
         obj.selected = true;            
         objects.push_back(obj);
         break;          
-    case '.':
-        obj = Object(Point3D(0,10,0), Vec3D(0,0,0), Object::ICOSAHEDRON, Vec3D(3,3,3), Point3D(-1,-1,-1), Point3D(1,1,1), globalMatIndex);
+    case '.': // bed
+        obj1 = Object(Point3D(0,10,0), Vec3D(0,0,0), Object::BED, Vec3D(3,3,3), Point3D(-1,-1,-1), Point3D(1,1,1), globalMatIndex);
         selectNewObject();
-        obj.selected = true;        
-        objects.push_back(obj);
-        break;   
+        obj1.selected = true;
+        objects.push_back(obj1);
+        break;
     case '/':
         obj = Object(Point3D(0,10,0), Vec3D(0,0,0), Object::CUSTOM, Vec3D(3,3,3), Point3D(-1,-1,-1), Point3D(1,1,1), globalMatIndex);
         selectNewObject();

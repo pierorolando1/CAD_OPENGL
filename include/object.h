@@ -9,7 +9,7 @@
 class Object
 {
 public:
-    enum Shape {CUBE, SPHERE, CONE, TEAPOT, TETRAHEDRON, ICOSAHEDRON, CUSTOM};
+    enum Shape {CUBE, SPHERE, CONE, TEAPOT, TETRAHEDRON, ICOSAHEDRON, CUSTOM, BED};
     // static Shape shape;
 
     Object();

@@ -75,9 +75,17 @@ void Object::draw()
         case Object::ICOSAHEDRON:
             glutSolidIcosahedron();
             break;
+        case Object::BED:
+        {
+            Mesh bed = Mesh::createFromOBJ("obj/Lowpoly_Notebook_2.obj");
+            bed.draw();
+            break;
+        }
         case Object::CUSTOM:
-            Mesh snowman = Mesh::createFromOBJ("obj/snowman.obj");
+            Mesh snowman = Mesh::createFromOBJ("obj/Closet.obj");
             snowman.draw();
+            break;
+
     }
 
     glPopMatrix();

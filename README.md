@@ -1,27 +1,14 @@
-## 3D CAD System
+## OPENGL CAD SYSTEM
 
-![image](https://i.imgur.com/lK8crX3.png)
-
-### **Program Execution**
+### **PROGRAM EXECUTION**
 Using the makefile, the program can be executed via:
 * `all`: Run `make`
 
 To remove the executable run:
 * `clean`: Run `make clean`
 
-### **Main Program**
-**External Libraries Used**:
-* iostream
-    * Used for basic input and output
-* random
-    * Used in the generation of random values within a passed range
-* cmath
-    * Used for mathematical functions
-* cfloat
-    * Used for floating point numbers
-
-#### **Notes:**
-**PLEASE NOTE: The bindings are CASE SENSITIVE**
+### **BLINDINGS**
+**THE BLINDINGS ARE CASE SENSITIVE**
 
 A list of the key bindings and the action they pertain to:
 
